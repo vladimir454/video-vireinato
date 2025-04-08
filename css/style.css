@@ -6,8 +6,12 @@ body {
 header
 {
     
-    color:rgb(75, 75, 132) ;
+    color:#BF9649;
     text-align: center;
+}
+.titulo
+{
+    color:#BF9649;
 }
 p{
     text-align: left;
@@ -19,7 +23,7 @@ li{
 nav{
    
     padding: 20px;
-    background-color:rgb(148, 160, 156);
+    background-color:#5D734D;
     color: white;
     margin: auto;
     list-style-type: none;
@@ -27,16 +31,16 @@ nav{
 }
 nav a{
     text-decoration: none;
-    background-color: rgb(84, 139, 121);
+    
     padding: 8px;
     margin: auto;
     border-radius: 20px;
-    color: rgb(62, 62, 139);
+    color: #BF9649;
 
 }
 a:hover{
-    background-color: rgb(29, 82, 64);
-    color: white;
+    
+    color: rgb(233, 226, 226);
 }
 article{
      padding: 10px;
@@ -60,8 +64,9 @@ article{
     text-align: center;
 }
 .footer {
-    background-color: rgb(148, 160, 156);
+    background-color: #5D734D;
     padding: 10px;
+    color:#BF9649;
     text-align: center;
 
 }
