@@ -7,6 +7,7 @@ header
 {
     
     color:rgb(75, 75, 132) ;
+    text-align: center;
 }
 p{
     text-align: left;
@@ -16,12 +17,26 @@ li{
     padding: 10px;
 }
 nav{
-    text-decoration: none;
-    color: aquamarine;
-    
+   
+    padding: 20px;
+    background-color:rgb(148, 160, 156);
+    color: white;
+    margin: auto;
+    list-style-type: none;
+    animation-duration: 4s;
 }
 nav a{
     text-decoration: none;
+    background-color: rgb(84, 139, 121);
+    padding: 8px;
+    margin: auto;
+    border-radius: 20px;
+    color: rgb(62, 62, 139);
+
+}
+a:hover{
+    background-color: rgb(29, 82, 64);
+    color: white;
 }
 article{
      padding: 10px;
@@ -43,4 +58,10 @@ article{
 {
     display: block;
     text-align: center;
+}
+.footer {
+    background-color: rgb(148, 160, 156);
+    padding: 10px;
+    text-align: center;
+
 }
